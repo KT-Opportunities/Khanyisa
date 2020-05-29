@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    width:100vw;
+    height: 100vh;
+}
+
+.left{
+    
+    float: left;
+    height: 99.3vh;
+    /* width: 520px; */
+    width:40vw;
+    min-width:40vw;
+    max-width:40vw;
+}
+
+.left > .box{
+    background-color: white;
+    /* width: 110%; */
+    height: 95px;
+    width:40vw;
+    position: absolute;
+    top: 0;
+}
+
+.box1{
+    background-color: white;
+    /* width: 110%; */
+    height: 75px;
+    position: inherit;
+    bottom: 0;
+    margin-top: 525px;
+    width:100%;
+}
+.box2{
+    background-color: white;
+    /* width: 110%; */
+    height: 45px;
+    width:40vw;
+    position: absolute;
+    bottom:-13px;;
+}
+
+.right{
+   
+    float: right;
+    /* width: 821px; */
+    height: 103vh;
+    width:60vw;
+    min-width:60vw;
+    max-width:60vw;
+
+}
+
+.right img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+
+}
+form{
+    position: absolute;
+    top: 130px;
+    left: 125px;
+}
+
+.logo{
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.left >.bg{
+    /* width: 475px; */
+    /* position: absolute; */
+    /* left: 25px; */
+    width:100%;
+}
+
+.tag{
+    text-align: center;
+
+letter-spacing: -0.08px;
+color: #2245D6;
+opacity: 1;
+font-size: 10px;
+font: Open Sans;
+margin-top: -20px;
+margin-bottom: 40px;
+}
+
+input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 0.5px solid #7F9CB9;
+border-radius: 3px;
+opacity: 1;
+margin-bottom: 20px;
+width: 268px;
+height: 33px;
+text-align: center;
+}
+
+.logBtn{
+    margin-left: 58px;
+    width: 132px;
+    height: 33px;
+    background: #37839B 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.passLink{
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 48px;
+    letter-spacing: -0.08px;
+    color: #D11F56;
+    opacity: 1;
+    font-size: 12px;
+}
+.passLink2{
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 101px;
+    letter-spacing: -0.08px;
+    color: #D11F56;
+    opacity: 1;
+    font-size: 12px;
+}
+
